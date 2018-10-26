@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "jsx": "react",
+        "target": "es6",
+        "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "outDir": "bin",
+        "skipLibCheck": true,
+        "strict": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "strictNullChecks": true,
+        "baseUrl": "./",
+        "paths": {
+            "*": ["typings/*"]
+        }
+    },
+    "exclude": ["node_modules"]
+}
