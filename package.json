@@ -14,10 +14,10 @@
     ],
     "dependencies": {
         "clipboardy": "^1.2.3",
+        "@microsoft/ts-command-line": "^4.2.2",
         "prompt-password": "^1.2.0"
     },
     "devDependencies": {
-        "@microsoft/ts-command-line": "^4.2.2",
         "@types/clipboardy": "^1.1.0",
         "@types/node": "^10.12.0",
         "ts-node": "^7.0.1",
