@@ -1,6 +1,6 @@
 {
     "name": "bogpaddle",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "bin": "./bin/index.js",
     "main": "./bin/index.js",
     "license": "MIT",
