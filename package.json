@@ -1,20 +1,20 @@
 {
     "name": "bogpaddle",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "bin": "./bin/index.js",
     "main": "./bin/index.js",
     "license": "MIT",
     "scripts": {
         "build": "tsc -p .",
         "test": "ts-node ./src/index.ts",
-	    "prepublishOnly": "yarn build"
+        "prepublishOnly": "yarn build"
     },
     "files": [
         "bin"
     ],
     "dependencies": {
-        "clipboardy": "^1.2.3",
         "@microsoft/ts-command-line": "^4.2.2",
+        "clipboardy": "^1.2.3",
         "prompt-password": "^1.2.0"
     },
     "devDependencies": {
